@@ -1,0 +1,339 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Waterfall
+#+DATE: <2017-04-21 Fri>
+#+AUTHOR: Colton Kopsa
+#+EMAIL: Aghbac@Aghbac.local
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.1.1 (Org mode 9.0.3)
+
+* Waterfall
+** Meetings
+*** /Software Requirements Meeting/
+**** Attendants
+     Owner, Secretary, Veteran Software Engineer, Technical Writer
+**** Agenda
+     - Clarify Software Requirements
+**** Expectations
+     - Generate *Software Requirements* Document
+**** Frequency
+    Typically once, unless requirements change.
+*** /Preliminary Program Design Meeting/
+**** Attendants
+     Owner, Veteran Software Engineer, Technical Writer
+**** Agenda
+     - Convert *Software Requirements* into *Preliminary Design*
+       - *Document System Overview*
+         - /Determine overall architecture of system/
+       - *Design Data Base and Processors*
+         - /Determine Data Base architecture and type/
+       - *Allocate Subroutine Storage*
+         - /Discuss space constraints of critical software components/
+       - *Allocate Subroutine Execution Times*
+         - /Discuss time constraints of critical software components/
+       - *Describe Operating Procedures*
+         - /Create pseudo-code for procedures/
+**** Expectations
+     - Generate *Preliminary Program Design* Document
+**** Frequency
+     Typically once. This is to generate a design to the best of your abilities
+     without coding anything. Problems here can be overcome with the *Final
+     Plan*.
+*** *Preliminary Software Review*
+**** Attendants
+     Customer, Owner, Veteran Software Engineer
+**** Agenda
+     - /Determine shortcomings of *Preliminary Program Design*/
+     - Go through current design and ensure software is being built to
+       customer's satisfaction
+**** Expectations
+     - Generate *Final Design* Document
+**** Frequency
+     Typically once. This is done after the *Preliminary Program Design Meeting*
+     and before the *Final Design Meeting*.
+*** /Interface Design Meeting/
+**** Attendants
+     Owner, Technical Writer, UX Designers
+**** Agenda
+     - /Analysis/
+       - /Perform Heuristic Analysis/
+       - /Create Personas that uniquely represent members of the target audience/
+       - /Create Scenarios that represent use cases that users will encounter/
+       - /Create Evaluation Criterion to determine the quality of the interface/
+     - /Design/
+       - /Write an Executive Summary that succinctly states the purpose of the
+         interface/
+       - /Generate Prototypes that fulfill the Evaluation Criterion/
+       - /Write a Specification that contains a complete set of the design
+         decisions for the interface/
+**** Expectations
+     - Generate *Interface Design* Document
+**** Frequency
+     - Typically once, unless unforeseen problems arise in the interface design.
+*** /Final Design Meeting/
+**** Attendants
+     Owner, Veteran Software Engineer, Technical Writer
+**** Agenda
+     - Determine flaws discovered in the *Preliminary Software Review* and
+       redesign as necessary
+**** Expectations
+     - Generate *Final Design* Document
+**** Frequency
+     Typically once. This is done after the initial *Preliminary Program Design*
+     and *Preliminary Software Review*, and before the final coding is done.
+*** *Critical Software Review*
+**** Attendants
+     Owner, Veteran Software Engineer, UX Designers, Customer
+**** Agenda
+     - Review code to determine its effectiveness in completing the task it was
+       designed for
+     - Go through current design and ensure software is being built to
+       customer's satisfaction
+**** Expectations
+     - Revisions to Design and Code as flaws/needs arise
+**** Frequency
+     Several times during the *Program Design* period.
+
+*** /Test Plan Meeting/
+**** Attendants
+     Owner, Quality Assurance Veteran, Technical Writer
+**** Agenda
+     - Create *Test Plan* that ensures software is ready for production use
+     - Begin *Testing Phase*
+**** Expectations
+     - Generate *Test Plan* Document
+**** Frequency
+     Typically once. This is done after the *Coding Phase*
+     and *Testing Phase*.
+*** *Final Software Acceptance Review*
+**** Attendants
+     Owner, Quality Assurance Veteran, Software Developer Veteran, Technical
+     Writer, Customer
+**** Agenda
+     - Walk the customer through final version of the product to ensure it meets
+       expectations
+     - Walk through the test plan, final plan, and interface design and show how
+       it meets customer's requirements
+     - Begin *Testing Phase*
+**** Expectations
+     - Receive customer's confirmation that the software meets the requirements
+**** Frequency
+     Typically once. This is done after the *Testing Phase*
+     and *Operations Phase*.
+*** /Weekly Planning Meetings/
+**** Attendants
+     Software Engineers, UX Designers, Owner, Technical Writer
+**** Agenda
+     - Establish tasks to do within the week to complete the project
+**** Expectations
+     - List of tasks to be accomplished within the following week.
+**** Frequency
+     Weekly
+*** /Retrospectives/
+**** Attendants
+     Software Engineers, UX Designers, Owner, Technical Writer
+**** Agenda
+     - Discuss progress of project
+     - Discuss successes and failures of previous week
+     - Discuss what can be done to reproduce successes
+     - Discuss what can be done to prevent failures
+**** Expectations
+     - List of lessons learned from previous weeks
+**** Frequency
+     Weekly, done day before Weekly Planning Meeting
+** Documents
+*** *Software Requirements*
+**** Author/Contributors
+     - Author: Technical Writer
+     - Contributors: Customer, Owner, Veteran Software Engineer, Veteran UX
+       Designer
+**** Audience
+     Software Engineers & UX Designers
+**** Purpose
+     Define the requirements of the customer to determine the needs of the
+     project and when the project is complete.
+**** Deadline/Time Period
+     Must be done before everything else.
+*** *Preliminary Design*
+**** Author/Contributors
+     - Author: Technical Writer
+     - Contributors: Owner, Veteran Software Engineer
+**** Audience
+     Software Engineers
+**** Purpose
+     To architect the project in such a way where technical design concerns are
+     addressed and the work can be divided up to be accomplished by multiple
+     engineers. This takes into consideration how different components will
+     interact with each other, so when the project is assembled into the final
+     product, minimal time is spent connecting components to work properly.
+**** Deadline/Time Period
+     This will be produced before any implementation code it written.
+*** *Interface Design*
+**** Author/Contributors
+     - Author: Technical Writer
+     - Contributors: Owner, Veteran UX Designer
+**** Audience
+     UX Designers
+**** Purpose
+     Develop an interface standard that defines the look of the end product to avoid
+     confusion and misinterpretation of the design. This will allow each
+     designer to work independently while creating the same design with accuracy
+     and precision. This design will meet the interface needs of the customer.
+**** Deadline/Time Period
+     This will happen before code is written for the interface.
+*** *Final Design*
+**** Author/Contributors
+     - Author: Technical Writer
+     - Contributors: Veteran Software Engineer, Owner
+**** Audience
+     Software Engineers
+**** Purpose
+     To re-architect the project in such a way where technical design concerns
+     that weren't addressed or addressed incorrectly in the *Preliminary Design*
+     can now be properly addressed and be divided up to be accomplished by
+     multiple engineers. This takes into consideration how different components
+     will interact with each other, so when the project is assembled into the
+     final product, minimal time is spent connecting components to work
+     properly.
+**** Deadline/Time Period
+     This will be produced after the *Preliminary Design* has been completed.
+*** *Test Plan*
+**** Author/Contributors
+     Author: Technical Writer
+     Contributors: Veteran Quality Assurance Tester, Owner
+**** Audience
+     Quality Assurance Testers
+**** Purpose
+     To test the software to ensure that it technically performs the way it was
+     designed. The different interfaces will have inputs and outputs checked for
+     correctness.
+**** Deadline/Time Period
+     This will be produced before any final testing is performed.
+*** *Operating Instructions*
+**** Author/Contributors
+     Author: Technical Writer
+     Contributors: Veteran Software Engineer, Veteran UX Designer, Owner
+**** Audience
+     Customer
+**** Purpose
+     Develop comprehensive operating instructions for the software documenting
+     each interface with its possible inputs and expected outputs, along with a
+     description of how each interface can be used.
+**** Deadline/Time Period
+     This will be produced before the software is delivered to the customer.
+** Roles
+*** /Middle-persons/
+**** Qualifications
+     - Interpersonal/Interteam skills
+**** Responsibilities
+    - Relay information from development team's progress on product to stakeholders
+    - Relay information from stakeholders' needs to development team
+**** Persons
+     Owner, Secretaries
+*** /Technical Writer/
+**** Qualifications
+     - Ability to turn technical information into something easily understood
+     - Knowledge of Waterfall documents and how to generate them properly
+**** Responsibilities
+     - Create and maintain necessary documents generated during design meetings
+     - Create Operating Instructions for customer to easily and effectively
+       operate software
+**** Persons
+     Technical Writer
+*** /Developers/
+**** Qualifications
+     - Ability to turn technical requirements into code
+**** Responsibilities
+     - Take the design specified in the design document and turn it into code
+     - Create documentation for written code to explain purpose and implementation
+**** Persons
+     Software Engineers (Developers)
+*** /UX Designer/
+**** Qualifications
+     - Ability to turn user-interface related requirements into code
+**** Responsibilities
+     - Take the UI design specified in the Interface Design and turn it into code
+     - Create documentation for written code to explain purpose and implementation
+**** Persons
+     UX Designers, Technical Writer, Software Engineers
+*** /Quality Assurance Tester/
+**** Qualifications
+     - Ability to turn requirements into code
+     - Understanding of software inputs/outputs to test them appropriately
+**** Responsibilities
+     - Test code to ensure it meets design specifications
+     - Test the UI to ensure it meets design specifications
+     - Create documentation for bugs to be fixed
+**** Persons
+     Software Engineers (Testers)
+*** /Miscellaneous/
+**** Qualifications
+     - Eye for cleanliness and organization
+**** Responsibilities
+     - Keep workplace clean and organized
+**** Persons
+     Custodian
+** Checkpoints
+*** System Requirements
+**** Length
+     3 Days
+**** Exit Criteria
+     Overall understanding of the current system requirements reached
+*** Software Requirements
+**** Length
+     5 Days
+**** Exit Criteria
+     - Software Requirements document completed
+*** Preliminary Program Design
+**** Length
+     10 Days
+**** Exit Criteria
+     - Preliminary Program Design document completed
+*** Analysis
+**** Length
+     5 Days
+**** Exit Criteria
+     - Problems discovered during *Preliminary Program Design* were noted and
+       explained
+*** Program Design
+**** Length
+     10 Days
+**** Exit Criteria
+     - Final Design
+*** Coding
+**** Length
+     10 Days
+**** Exit Criteria
+     - Software is completed to Final Design specifications
+     - Software is ready for testing
+*** Testing
+**** Length
+     10 Days
+**** Exit Criteria
+     - Test Plan is completed
+*** Operations
+**** Length
+     10 Days
+**** Exit Criteria
+     - Final Product
+     - Operating Instructions
+* Reflection
+** Viability
+   I feel like this is a viable plan that can be accomplish with my team and,
+   given a the correct scenario, could yield success.
+** Efficiency
+   One of the problems with this plan is its efficiency. If this were our only
+   project, our testers wouldn't have work until the project was near completion
+   and our general purpose developers wouldn't have work until the design was
+   finished. During the testing phase developers are out of work. Allowing
+   testers to test components of the software when they are finished would allow
+   for better efficiency.
+** Risk
+  The greatest risk is that if during the testing phase it was discovered that
+  something didn't operate correctly, it is possible to need to start completely
+  over. As stated previously testing during the coding process would help avoid
+  this.

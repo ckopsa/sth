@@ -1,0 +1,170 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: pon1
+#+DATE: <2017-04-21 Fri>
+#+AUTHOR: Colton Kopsa
+#+EMAIL: Aghbac@Aghbac.local
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.1.1 (Org mode 9.0.3)
+
+* Code & Fix
+** Meetings
+*** Requirements Meeting With Stakeholders
+
+**** Attendants
+     Owner, Secretary, Veteran Software Engineer, Technical Writer
+**** Agenda
+     - Clarify Requirements
+**** Expectations
+     - Requirements Specification
+**** Frequency
+     - Typically once, unless requirements change.
+*** Architecture/Design Meeting with Developers
+
+**** Attendants
+     Owner, Technical Writer, Senior Software Engineers, UX Designers
+**** Agenda
+    - Convert requirements into initial Design Document and Design Specification
+**** Expectations
+     - Design Document - Contains design decisions pertaining to code implementation.
+     - Design Specification - Contains design decisions pertaining to user interface.
+**** Frequency
+     - Typically once, unless unforeseen problems arise in the designs.
+*** Weekly Planning Meetings
+**** Attendants
+     Software Engineers, UX Designers, Owner, Technical Writer
+**** Agenda
+     - Establish tasks to do within the week to complete the project
+**** Expectations
+     - List of tasks to be accomplished within the following week.
+**** Frequency
+     Weekly
+*** Retrospectives
+
+**** Attendants
+     Software Engineers, UX Designers, Owner, Technical Writer
+**** Agenda
+     - Discuss successes and failures of previous week
+     - Discuss what can be done to reproduce successes
+     - Discuss what can be done to prevent failures
+**** Expectations
+     - List of lessons learned from previous weeks
+**** Frequency
+     Weekly, done day before Weekly Planning Meeting
+** Documents
+*** Requirements Specification
+**** Author/Contributors
+     Author: Technical Writer
+     Contributors: Stakeholders, Software Engineers
+**** Audience
+     Software Engineers & UX Designers
+**** Purpose
+     Define the requirements of the stakeholders to determine the needs of the
+     project and when the project is complete.
+**** Deadline/Time Period
+     Must be done before everything else.
+*** Design Document
+**** Author/Contributors
+     Author: Technical Writer
+     Contributors: Software Engineers
+**** Audience
+     Software Engineers
+**** Purpose
+     To architect the project in such a way where technical design concerns are
+     addressed and the work can be divided up to be accomplished by multiple
+     engineers. This takes into consideration how different components will
+     interact with each other, so when the project is assembled into the final
+     product, minimal time is spent connecting components to work properly.
+**** Deadline/Time Period
+     This will be produced before any implementation code it written.
+*** Design Specification
+**** Author/Contributors
+     Author: Technical Writer
+     Contributors: UX Designers
+**** Audience
+     UX Designers
+**** Purpose
+     Develop a UI standard that defines the look of the end product to avoid
+     confusion and misinterpretation of the design. This will allow each
+     designer to work independently while creating the same design with accuracy
+     and precision.
+**** Deadline/Time Period
+     This will happen before code is written for the UI.
+** Roles
+*** Middle-persons
+**** Qualifications
+     - Interpersonal/Interteam skills
+**** Responsibilities
+    - Relay information from development team's progress on product to stakeholders
+    - Relay information from stakeholders' needs to development team
+**** Persons
+     Owner, Secretaries
+*** Developers
+**** Qualifications
+     - Ability to turn requirements into code
+**** Responsibilities
+     - Take the design specified in the design document and turn it into code
+     - Test code to ensure it meets design specifications
+     - Take the UI design specified in the Design Specification and turn it into code
+     - Test the UI to ensure it meets design specifications
+     - Create documentation for written code so end user can operate product
+**** Persons
+     UX Designers, Technical Writer, Software Engineers
+*** Miscellaneous
+**** Qualifications
+     - Eye for cleanliness and organization
+**** Responsibilities
+     - Keep workplace clean and organized
+**** Persons
+     Custodian
+** Checkpoints
+*** Design
+**** Length
+    10 Team Work Days 
+**** Exit Criteria
+     - Requirements Specification
+     - Design Document
+     - Design Specification
+*** Test Environment
+**** Length
+     3 Team Work Days
+**** Exit Criteria
+     Working test environment with student/class data
+*** Forecast Number of Sections
+**** Length
+     15 Team Work Days
+**** Exit Criteria
+     Prototype that performs the ability to forecast the number of sections
+     needed for a course based off student data.
+*** Auto-Register
+**** Length
+     20 Team Work Days
+**** Exit Criteria
+     Prototype the performs the ability to generate student schedules and
+     auto-register students for classes.
+*** Debug / Final Product
+**** Length
+     10 Team Work Days
+**** Exit Criteria
+     End product works as specified in Requirements Specification
+* Reflection
+** Viability
+   I feel like this is a viable plan that would yield success given its
+   implementation. 
+** Efficiency
+   I feel like this plan's biggest problem is its efficiency. While the initial
+   design is being completed a majority of the team isn't active doing anything.
+   When the design is finished much of team is now active; however, the
+   secretaries and owner seem to take more of a backseat role now. In the
+   situation where I am the owner, I could participate in the design and
+   development of the software, but the secretaries still are without work.
+** Risk
+   I don't believe that there is much risk involved in this plan. The biggest
+   risk I believe is to be found in Checkpoint length estimation. Those are more
+   just best guesses on how long those should take without much research. I
+   favored on the side that they would take longer than expected, but again my
+   estimate may be off.

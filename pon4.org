@@ -1,0 +1,184 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: XP
+#+DATE: <2017-04-21 Fri>
+#+AUTHOR: Colton Kopsa
+#+EMAIL: Aghbac@Aghbac.local
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.1.1 (Org mode 9.0.3)
+
+* XP
+** Meetings
+*** /User Story Meeting/
+**** Attendants
+     Owner and Customer
+**** Agenda
+     - Help customer develop *user stories*
+**** Expectations
+     - Generate a *user stories* 
+**** Frequency
+     - Once before *Release Planning Meeting*
+*** *Release Planning Meeting*
+**** Attendants
+     Owner, Software Engineers, UX Designers
+**** Agenda
+     - Convert *User Stories* into *ideal programming weeks*
+     - Plan out for each *user story* a release date
+**** Expectations
+     - Generate a *Release Plan* 
+**** Frequency
+     - Once after *architectural spike* and *user stories*
+*** *Iteration Planning Meetings*
+**** Attendants
+     Owner, Software Engineers, UX Designers
+**** Agenda
+     - Owner brings selected *user stories* from customer.
+     - Selected *user stories* and failed tests are broken down the programming tasks that
+       will support them
+     - Developers sign up to do the tasks and then estimate how long they will take
+**** Expectations
+     - Generate a *task cards* 
+**** Frequency
+     - Once at the beginning of each iteration
+*** *Stand-Ups*
+**** Attendants
+     Software Engineers, UX Designers
+**** Agenda
+     - Each team member communicates:
+       - What was accomplished yesterday
+       - What they will accomplish today
+       - What problems are causing delays
+**** Expectations
+     - Team is aware of each individuals responsibilities and potential problems
+**** Frequency
+     - Once every day
+** Documents
+*** *Release Plan*
+**** Author/Contributors
+     - Author: Customer, Owner
+**** Audience
+     Software Engineers and UX Designers
+**** Purpose
+     The *release plan* defines which *user stories* are going to be implemented
+     for each release and dates for those releases.
+**** Deadline/Time Period
+     The *release plan* will be produced before the *iteration* phase.
+*** *User Stories*
+**** Author/Contributors
+     - Author: Customer
+**** Audience
+     Software Engineers and UX Designers
+**** Purpose
+     User stories explain needs of the customer by describing what they want to
+     do.
+**** Deadline/Time Period
+     User stories will be produced before Release Planning
+*** /Spike Results/
+**** Author/Contributors
+     - Author: Software Engineers or UX Designers
+**** Audience
+     Software Engineers and UX Designers
+**** Purpose
+     Spikes are used to help estimate how long an unknown user story would take
+     to implement. Results of these would be written here to use in *Release
+     Planning*.
+**** Deadline/Time Period
+     Spike Results are generated for Release Planning
+*** *Tasks*
+**** Author/Contributors
+     - Author: Software Engineers, UX Designers, and QA Testers
+**** Audience
+     Software Engineers, UX Designers, and QA Testers
+**** Purpose
+     Tasks are the outcome of broken down User Stories. Programmers are assigned
+     tasks and required to estimate how long they will take to accomplish the
+     task. This breaks up into manageable pieces. Allow time-lengths for a
+     single task is .5 - 3 days. As the implementation of tasks are completed,
+     QA testers test the implementation to ensure reliability and task completion.
+**** Deadline/Time Period
+     Defined in *Iteration Plan* accomplished during *Development*
+** Roles
+*** /Middle-persons/
+**** Qualifications
+     - Interpersonal/Interteam skills
+**** Responsibilities
+     - Relay information from development team's progress on product to customers
+     - Relay customers' *user-stories* to development team
+**** Persons
+     Owner, Secretaries
+*** /Developers/
+**** Qualifications
+     - Ability to turn technical requirements into code
+**** Responsibilities
+     - Take *user stories* specified by the customer, turn them into tasks, and
+       then turn it into code
+     - Create documentation for written code to explain purpose and implementation
+**** Persons
+     Software Engineers (Developers)
+*** /UX Designer/
+**** Qualifications
+     - Ability to turn user-interface related requirements into code
+**** Responsibilities
+     - Take the UI design specified by *user stories* and *tasks* and turn it
+       into code
+     - Create documentation for written code to explain purpose and implementation
+**** Persons
+     UX Designers, Technical Writer, Software Engineers
+*** /Quality Assurance Tester/
+**** Qualifications
+     - Ability to turn requirements into code
+     - Understanding of software inputs/outputs to test them appropriately
+**** Responsibilities
+     - Test code to ensure it meets customer specifications
+     - Test the UI to ensure it meets customer specifications
+     - Create documentation for bugs to be fixed
+**** Persons
+     Software Engineers (Testers)
+*** /Miscellaneous/
+**** Qualifications
+     - Eye for cleanliness and organization
+**** Responsibilities
+     - Keep workplace clean and organized
+**** Persons
+     Custodian
+** Checkpoints
+*** Release Planning Phase
+**** Length
+     5 Days
+**** Exit Criteria
+     - User stories are developed
+     - Spikes are finished
+     - Release plan is generated
+*** Iteration Phase
+**** Length
+     15 Days
+**** Exit Criteria
+     - All user stories are turned into tasks
+     - All tasks are completed and properly tested to customer specification
+*** Release
+**** Length
+     5 Days
+**** Exit Criteria
+     - Passed Acceptance Test of Customer
+     - Implemented Software into Customer System
+     - Delivered Necessary Documentation
+
+* Reflection
+** Viability
+   I feel like this is a very viable solution because it is heavily focused on
+   customers' needs and satisfaction.
+** Efficiency
+   I feel the efficiency of this plan is good. Through the use of pair
+   programming and the quick and agile iterations, problems get dealt with
+   quickly or don't arise at all, which leads to a project finishing on time.
+** Risk
+   Risk is minimized due to frequent contact with the customer and the use of
+   *spikes* to deliver accurate time estimates for *user stories*. One potential
+   risk that I see not for this task, but larger tasks is lack of documentation.
+   I didn't see a use for a technical writer because it didn't seem like it was
+   needed. It seems the XP relies more on documentation by-way-of-mouth over
+   written documentation.

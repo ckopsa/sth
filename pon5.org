@@ -1,0 +1,264 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: SCRUM
+#+DATE: <2017-04-21 Fri>
+#+AUTHOR: Colton Kopsa
+#+EMAIL: Aghbac@Aghbac.local
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.1.1 (Org mode 9.0.3)
+
+* SCRUM
+** Meetings
+*** *Sprint Planning Meeting*
+**** Attendants
+     Product Owner and Team
+**** Agenda
+     - Negotiate which *Product Backlog Items* will be attempted to convert to
+       tasks
+**** Expectations
+     - *Backlog Epics* are turned into tasks.
+**** Frequency
+     - At the beginning of each sprint
+
+*** *Daily Scrum and Sprint Execution*
+**** Attendants
+     Scrum Development Team
+**** Agenda
+     - Discuss what was done on the previous work day
+     - Discuss what will be done today
+     - Notify team of any blockers
+**** Expectations
+     - Update team on personal tasks
+**** Frequency
+     - Once a day
+
+*** *Sprint Review Meeting*
+**** Attendants
+     Scrum Development Team and Stakeholders
+**** Agenda
+     - Live demonstration of the current product
+     - Scrum Master & Product Owner discuss product and potential changes
+**** Expectations
+     - Add stakeholder feedback to backlog as epics
+**** Frequency
+     - Once after a Sprint
+
+*** *Sprint Retrospective Meeting*
+**** Attendants
+     Scrum Development Team
+**** Agenda
+     - Previous sprint is examined
+     - Team reflects on its own process
+     - Action is taken to adapt and improve process for future sprints
+**** Expectations
+     - Action items are discussed and planned to be taken care of in the future
+       sprint
+**** Frequency
+     - Once at the end of a Sprint
+
+*** *Backlog Refinement Meeting*
+**** Attendants
+     Scrum Development Team
+**** Agenda
+     - Large vague items are split and clarified
+     - Effort estimation for backlog items
+     - Epics are converted into *User Stories*
+**** Expectations
+     - Generate a *user stories* from *Epics* in the *Backlog*
+**** Frequency
+     - Once before *Sprint Planning Meeting*
+
+** Documents
+*** *Product Backlog*
+**** Author/Contributors
+     - Author: Any Stakeholder, Scrum Development Team Member
+**** Audience
+     Scrum Development Team
+**** Purpose
+     - Force-ranked list of desired functionality
+**** Deadline/Time Period
+     Persists throughout the life cycle of the product.
+*** *Product Backlog Item*
+**** Author/Contributors
+     - Author: Product Owner, Scrum Master, Stakeholders
+**** Audience
+     Scrum Development Team
+**** Purpose
+     - Describes the what more than the how of a customer-centric feature
+**** Deadline/Time Period
+     Persists throughout the life cycle of the product.
+
+*** *Sprint Backlog*
+**** Author/Contributors
+     - Author: Product Owner and Scrum Development Team
+**** Audience
+     Scrum Development Team
+**** Purpose
+     - Consists of selected Epics
+     - Keeps the Scrum Development Team focused on tasks that need to completed
+       before the end of the sprint.
+**** Deadline/Time Period
+     Persists throughout the duration of the sprint.
+*** *Sprint Task*
+**** Author/Contributors
+     - Author: Scrum Development Team
+**** Audience
+     Scrum Development Team Member
+**** Purpose
+     - Describes the how to achieve an Epic's what
+**** Deadline/Time Period
+     Persists until the task is finished.
+
+*** *Sprint Burndown Chart*
+**** Author/Contributors
+     - Author: Scrum Development Team
+**** Audience
+     Scrum Development Team
+**** Purpose
+     - Summation of total team work remaining within one sprint
+     - Aid in the facilitation of self-organizing teams
+**** Deadline/Time Period
+     Persists throughout the duration of the sprint.
+*** *Product/Release Burndown Chart*
+**** Author/Contributors
+     - Author: Scrum Development Team
+**** Audience
+     Scrum Development Team
+**** Purpose
+     Track the remaining Product Backlog effort from one Sprint to the next
+**** Deadline/Time Period
+     Persists throughout the life cycle of the product.
+     
+** Roles
+*** *Product-Owner*
+**** Qualifications
+     - Interpersonal/Interteam skills
+**** Responsibilities
+     - Single person responsible for maximizing the return on investment (ROI)
+       of the development effort
+     - Responsible for product vision
+     - Constantly re-prioritizes the Product Backlog, adjusting any long- term
+       expectations such as release plans
+     - Final arbiter of requirements questions
+     - Decides whether to release
+     - Decides whether to continue development • Considers stakeholder interests
+     - May contribute as a team member
+     - Has a leadership role
+**** Persons
+     Owner, Secretaries
+*** *Scrum Master*
+**** Qualifications
+     - Ability to turn technical requirements into code
+     - Knowledge of Scrum processes
+     - Ability to lead without management authority
+**** Responsibilities
+     - Works with the organization to make Scrum possible
+     - Ensures Scrum is understood and enacted
+     - Creates an environment conducive to team self-organization
+     - Shields the team from external interference and distractions to keep it in group flow (a.k.a. the zone)
+     - Promotes improved engineering practices
+     - Has no management authority over the team
+     - Helps resolve impediments
+     - Has a leadership role
+**** Persons
+     Veteran Software Engineer
+*** /Developers/
+**** Qualifications
+     - Ability to turn technical requirements into code
+     - Intensely collaborative
+**** Responsibilities
+     - Take *user stories* specified by the customer, turn them into tasks, and
+       then turn it into code
+     - Create documentation for written code to explain purpose and implementation
+**** Persons
+     Software Engineers (Developers)
+*** /UX Designer/
+**** Qualifications
+     - Intensely collaborative
+     - Ability to turn user-interface related requirements into code
+**** Responsibilities
+     - Take the UI design specified by *user stories* and *sprint tasks* and turn it
+       into code
+     - Create documentation for written code to explain purpose and implementation
+**** Persons
+     UX Designers, Technical Writer, Software Engineers
+*** /Quality Assurance Tester/
+**** Qualifications
+     - Intensely collaborative
+     - Ability to turn requirements into code
+     - Understanding of software inputs/outputs to test them appropriately
+**** Responsibilities
+     - Test code to ensure it meets customer specifications
+     - Test the UI to ensure it meets customer specifications
+     - Create documentation for bugs to be fixed
+**** Persons
+     Software Engineers (Testers)
+*** /Miscellaneous/
+**** Qualifications
+     - Eye for cleanliness and organization
+**** Responsibilities
+     - Keep workplace clean and organized
+**** Persons
+     Custodian
+** Checkpoints
+*** Sprint 0
+**** Length
+     5 Days
+**** Exit Criteria
+     - Split into 2 Scrum Feature Teams
+     - Develop initial *Project Backlog* with stakeholders and product owners
+*** Sprint 1
+**** Length
+     5 Days
+**** Exit Criteria
+     - Product Owner specified feature is developed to standalone state
+     - Sprint Tasks are finished
+     - Sprint Review Meeting is held
+*** Sprint 2
+**** Length
+     5 Days
+**** Exit Criteria
+     - Product Owner specified feature is developed to standalone state
+     - Sprint Tasks are finished
+     - Sprint Review Meeting is held
+*** Sprint 3
+**** Length
+     5 Days
+**** Exit Criteria
+     - Product Owner specified feature is developed to standalone state
+     - Sprint Tasks are finished
+     - Sprint Review Meeting is held
+*** Sprint 4
+**** Length
+     5 Days
+**** Exit Criteria
+     - Product Owner specified feature is developed to standalone state
+     - Sprint Tasks are finished
+     - Sprint Review Meeting is held
+*** Release
+**** Length
+     5 Days
+**** Exit Criteria
+     - Passed Acceptance Test of Customer
+     - Implemented Software into Customer System
+     - Delivered Necessary Documentation
+
+* Reflection
+** Viability
+   I feel like this is a very viable solution because it is heavily focused on
+   stakeholders' involvement.
+** Efficiency
+   I feel the efficiency of this plan is good. Through the use of task focused
+   sprints and the fact the Scrum focuses on efficiency, the project has high
+   success of being finished on time and to the stakeholders' liking.
+** Risk
+   Risk is minimized due to frequent contact with the stakeholders and the use
+   of *sprints* to deliver working products to the stakeholders each week. One
+   potential risk that I see not for this task, but larger tasks is lack of
+   documentation. I didn't see a use for a technical writer because it didn't
+   seem like it was needed. It seems the Scrum relies more on documentation
+   by-way-of-mouth over written documentation.
