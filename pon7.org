@@ -1,0 +1,74 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: pon7
+#+DATE: <2017-06-03 Sat>
+#+AUTHOR: Aghnix
+#+EMAIL: aghnix@aghnix
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.2.2 (Org mode 9.0.7)
+
+* CMM Level 1 -> 2
+** Waterfall
+*** Part of the Methodology
+    | Name                | Quote                                                                                           | Description                                                    |
+    |---------------------+-------------------------------------------------------------------------------------------------+----------------------------------------------------------------|
+    | Document the Design | "The first rule of software development is ruthless enforcement of documentation requirements." | Documenting requirements/design is key to a project's success. |
+    332
+*** Key Process Area
+    | Name                    | Quote                                        | Justification                                                                         |
+    |-------------------------+----------------------------------------------+---------------------------------------------------------------------------------------|
+    | Requirements Management | "The allocated requirements are documented." | Documentation makes available the body of knowledge necessary to develop the project. |
+    L2-4
+*** Help or Hinder
+    | Help/Hinder | Rationale                                                                                                                                                                 |
+    |-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Hinder      | Typically documentation is key to a large projects success; however, the project we are working on is small enough to where extensive documentation would be unnecessary. |
+** Spiral Model
+*** Part of the Methodology
+    65
+    | Name   | Quote                                                                                                                                                                                        | Description                                                      |
+    |--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------|
+    | Review | "An important feature of the spiral model, as with most other models, is that each cycle is completed by a review involving the primary people or organizations concerned with the product." | After each cycle is completed a review is held for stakeholders. |
+*** Key Process Area
+    L2-17
+    | Name                      | Quote                                                                                                                                                               | Justification                                           |
+    |---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------|
+    | Software Project Planning | "Software project commitments made to individuals and groups external to the organization are reviewed with senior management according to a documented procedure." | Progress on commitments should be relayed to management |
+*** Help or Hinder
+    | Help/Hinder | Rationale                                                                                                                                                          |
+    |-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Help        | By frequently reviewing the progress of the project with stakeholders/management we can gain feedback to ensure the product is being built to their specification. |
+** XP
+*** Part of the Methodology
+    99
+    | Name    | Quote                                                                                                                                                                                                                                 | Description                                                                                    |
+    |---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------|
+    | Testing | "Unit tests are written by the programmers, in order to prove that programs work the way they are expected to. Functional tests are written by customers to convince themselves that a system as a whole works as it is expected to." | Unit and Functional tests are written and used to ensure product functionality and completion. |
+*** Key Process Area
+    L2-67
+    | Name                       | Quote                                                                                  | Justification                                                                     |
+    |----------------------------+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------|
+    | Software Quality Assurance | "A SQA plan is prepared for the software project according to a documented procedure." | Software Quality Assurance ensures that the product functions as it was designed. |
+*** Help or Hinder
+    | Help/Hinder | Rationale                                                                                                       |
+    |-------------+-----------------------------------------------------------------------------------------------------------------|
+    | Help        | Unit/functional tests are used to discover bugs before releasing an unfinished software solution to the client. |
+** SCRUM
+*** Part of the Methodology
+    3
+    | Name            | Quote                                                      | Description                                                                                      |
+    |-----------------+------------------------------------------------------------+--------------------------------------------------------------------------------------------------|
+    | Product Backlog | "Force-ranked (prioritized) list of desired functionality" | Software activities are represented as Backlog Items that are tracked using the product backlog. |
+*** Key Process Area
+    L2-35
+    | Name                      | Quote                                                                                                           | Justification                                                                    |
+    |---------------------------+-----------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------|
+    | Software Project Tracking | "A documented software development plan is used for tracking the software activities and communicating status." | Tracking tasks ensures that all requested features are retained and accomplished |
+*** Help or Hinder
+    | Help/Hinder | Rationale                                                                                                               |
+    |-------------+-------------------------------------------------------------------------------------------------------------------------|
+    | Help        | Using a product backlog would help ensure that the features that the clients have requested are noted and accomplished. |
